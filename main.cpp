@@ -14,7 +14,25 @@ using namespace std;
         cout<<"the name is "<<name<<"the id is "<<id<<endl;
     }
     
+person(string name , int id ){
+this ->name =name ;
+    this ->id = id ;  
+}//constructor 
+
+person(){
+delete();
+}//destructor
+
+getperson(){
+  return person ;  
 }
+setperson(string name , int id){
+
+    this -> name =name ;
+    this ->id = id ;
+    
+}
+
 
 
 
