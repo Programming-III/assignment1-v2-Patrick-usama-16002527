@@ -46,6 +46,24 @@ void student::display(){
     cout<<"the levelyear is "<<yearLevel<<"major is "<<major<<endl;
 }
 
+void student ::person(string yearlevel,string major){
+    this ->yearlevel=yearlevel;
+    this ->major =major ;
+    
+}//constructor 
+person(){
+delete();
+}//destructor
+getstudent(){
+return student
+}
+
+setstudent(string name , int id){
+    this ->name=name;
+    this->id=id ;
+    
+}
+
 
 
 
