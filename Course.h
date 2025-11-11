@@ -6,7 +6,7 @@
 using namespace std;
 //#write your code here
 
- class course {
+ class Course {
 
 private :
 string coursecode ;
