@@ -16,5 +16,11 @@ class person {
     public :
     
     void display();
+person(); //constructor 
+person(); //destructor
+getperson();
+setperson(string name , int id);
+
+
   
 #endif
