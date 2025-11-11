@@ -10,8 +10,8 @@ using namespace std;
 
 // ==================== Person Class Implementation =========================
 
-    void student :: display(){
-        cout<<"the name is "<<name<<"the id is "<<id;
+    void person :: display(){
+        cout<<"the name is "<<name<<"the id is "<<id<<endl;
     }
     
 }
@@ -24,6 +24,9 @@ using namespace std;
 // ==================== Student Class Implementation ====================
 
 
+void student::display(){
+    cout<<"the levelyear is "<<yearLevel<<"major is "<<major<<endl;
+}
 
 
 
