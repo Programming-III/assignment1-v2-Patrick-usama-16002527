@@ -19,19 +19,25 @@ this ->name =name ;
     this ->id = id ;  
 }//constructor 
 
-person(){
+person::person(){
 delete();
 }//destructor
 
-getperson(){
-  return person ;  
+void person::getname(){
+  return name ;  
 }
-void person::setperson(string name , int id){
-
-    this -> name =name ;
-    this ->id = id ;
+void person::getid(){
+return id;
     
 }
+void person::setname(string name ){
+this->name=name ;
+    
+}
+void person::setid(int id){
+this->id=id;
+}
+
 
 
 
@@ -54,16 +60,24 @@ void student ::person(string yearlevel,string major){
 person(){
 delete();
 }//destructor
-getstudent(){
-return student
+void Student ::getyearlevel(){
+return yearlevel; 
+}
+void Student::getmajor(){
+    return major;
 }
 
-setstudent(string name , int id){
-    this ->name=name;
-    this->id=id ;
-    
+
+
+void student::setyearLevel(string yearLevel){
+  this ->yearLevel =yearLeve;;
+  
 }
 
+void student::setmajor(string major){
+  this ->major =major;
+  
+}
 
 
 
@@ -84,14 +98,20 @@ void instructor::instructor(string department , int experienceyears){
     
 }
 
-getinstructor (){
-    return instructor;
+void instructor::getdepartment (){
+    return department;
 }
-setinstructor(int yearLevel , string major ){
-this ->yearLevel=yearLevel;
- this ->major=major;
+void instructor:: getexperienceyears(){
+return experienceyears ;
     
 }
+void intructor:: setdepartment(int department ){
+this ->department=department;   
+}
+void instructor::setexperienceyears(int experienceyears  ){
+this ->experienceyears=experienceyears;   
+}
+
 
 
 
