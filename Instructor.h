@@ -15,7 +15,11 @@ int experienceyears;
 private :
 
 void display();
-
+instructor();
+instructor();
+getinstructor ();
+setinstructor(int yearLevel , string major );
+  }
   
   }
  
