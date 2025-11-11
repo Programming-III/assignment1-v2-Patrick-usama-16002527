@@ -97,6 +97,19 @@ this ->yearLevel=yearLevel;
 
 // ==================== Course Class Implementation ====================
 
+addStudent (const Student& s );
+
+displaycourseinfo();
+
+course(){
+    delete();
+}
+
+void Course::course()
+
+setcourse();
+
+getcourse();
 
 
 
