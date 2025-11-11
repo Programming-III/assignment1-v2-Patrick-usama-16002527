@@ -5,15 +5,19 @@
 using namespace std;
 //#write Instructor class here
 
+public intructor {
+
+private :
+  string department ;
+int experienceyears;
 
 
+private :
 
+void display();
 
-
-
-
-
-
-
+  
+  }
+ 
 
 #endif
