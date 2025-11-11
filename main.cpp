@@ -10,7 +10,11 @@ using namespace std;
 
 // ==================== Person Class Implementation =========================
 
-
+    void student :: display(){
+        cout<<"the name is "<<name<<"the id is "<<id;
+    }
+    
+}
 
 
 
