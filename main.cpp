@@ -69,8 +69,29 @@ setstudent(string name , int id){
 
 // ==================== Instructor Class Implementation ====================
 
+void instructor::display(){
+    cout<<"the department is "<<department<<" experienceyears is "<<experienceyears<<endl;
+}
 
 
+instructor(){
+    delete()
+}
+void instructor::instructor(string department , int experienceyears){
+    this ->department =department ;
+    this ->experienceyears=experienceyears;
+    
+    
+}
+
+getinstructor (){
+    return instructor;
+}
+setinstructor(int yearLevel , string major ){
+this ->yearLevel=yearLevel;
+ this ->major=major;
+    
+}
 
 
 
