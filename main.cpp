@@ -99,13 +99,30 @@ this ->yearLevel=yearLevel;
 
 addStudent (const Student& s );
 
-displaycourseinfo();
+void Course::displaycourseinfo(){
+   coursecode::displayInfo();
+       coursename::displayInfo();
+    maxstudents::displayInfo();
+    students::displayInfo();
+    currentstudents::displayInfo()
+    
+
+        cout << "Level: " << level << endl;
+    }
+
+}
 
 course(){
     delete();
 }
 
-void Course::course()
+void Course::course(string coursecode ,string coursename, int maxstudents ,Student* students ,int currentstudents ){
+this-> coursecode=coursecode;
+this->coursename=coursename; 
+this->maxstudents=maxstudents;
+this->students=students;
+this->currentstudents=currentstudents;    
+}
 
 setcourse();
 
