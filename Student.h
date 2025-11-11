@@ -16,7 +16,10 @@ public Student {
   public :
 
 void display();
-
+student();
+student();
+getstudent ();
+setstudent(int yearLevel , string major );
   }
 
 
